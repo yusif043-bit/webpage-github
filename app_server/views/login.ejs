@@ -1,0 +1,21 @@
+<h1>LoginPage</h1>
+
+<form action="/login" method="POST">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Username</label>
+      <input type="text" class="form-control" id="username" name="username">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="password" name="password">
+    </div>
+    <div class="user_container">
+        <div class="bt index_container" onclick="openUrl('http\:\/\/localhost:3000/index')">
+            <a href="http://localhost:3000/index" class="atext loginBT">Home</a>
+        </div>
+        <div class="bt signup_container" onclick="openUrl('http\:\/\/localhost:3000/signup')">
+            <a href="http://localhost:3000/signup" class="atext signupBT">Qeydiyyat</a>
+        </div>
+        <input type="submit" class="bt submit_bt" value="Submit" name="submit">
+    </div>
+  </form>

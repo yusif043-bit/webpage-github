@@ -1,0 +1,70 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 90vh;
+}
+
+.user_container {
+    width: 420px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:7px 5px 5px gray;
+    border-radius: 5px;
+    margin: 20px;
+    transition: 0.6s;
+}
+
+.atext {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.login_container {
+    background: linear-gradient(#058dfc, #455059);
+}
+.signup_container {
+    background: linear-gradient(#a700ff, #5b4666);
+}
+.index_container {
+    background: linear-gradient(#02f72f, #3b4a3e);
+}
+.submit_bt {
+    border: none;
+    background: linear-gradient(#058dfc, #455059);
+}
+
+.sgnbt {
+    border: none;
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(#a700ff, #5b4666);
+    box-shadow:10px 8px 8px gray;
+}
+
+.bt:hover {
+    width: 150px;
+    height: 150px;
+    transition:0.6s;
+}
+.sgnbt:hover{
+    width: 220px;
+    height: 220px;
+    transition:0.6s;
+}

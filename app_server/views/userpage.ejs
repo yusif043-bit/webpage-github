@@ -1,0 +1,16 @@
+<style>
+    body{
+        flex-direction: column;
+    }
+</style>
+<div class="user-data">
+    <%if(typeof username!="undefinde"){%>
+        <h3><%-username%></h3>
+    <%}%>
+    <%if(typeof password!="undefinde"){%>
+        <h3><%-password%></h3>
+    <%}%>
+    <div class="bt index_container" onclick="openUrl('http\:\/\/localhost:3000/index')">
+        <a href="http://localhost:3000/index" class="atext loginBT">Home</a>
+    </div>
+</div>
